@@ -1,5 +1,5 @@
-root 'users#index'
+Rails.application.routes.draw do
+  root 'users#index'
   get 'contacts/index'
-  get 'tweets/index'Rails.application.routes.draw do
-
+  get 'tweets/index'
 end
